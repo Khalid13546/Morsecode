@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Morse Code Encryptor</title>
+  </head>
+  <body>
+    <h1 class="title">Morse Code Encryptor</h1>
+    <div class="container">
+      <textarea id="input" placeholder="Enter text or Morse code"></textarea>
+      <button onclick="translateToText()" class="click">Morse to Text</button>
+      <button onclick="translateToMorse()">Text to Morse</button>
+      <br />
+      <br />
+      <textarea placeholder="Translation" id="output"></textarea>
+    </div>
+    <script src="./morse.js"></script>
+  </body>
+</html>
